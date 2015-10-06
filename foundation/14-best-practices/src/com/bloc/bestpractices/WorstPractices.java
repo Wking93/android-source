@@ -12,11 +12,14 @@ public class WorstPractices extends Object {
 	/************************************************/
 
 	public static void main(String [] args) {
-	int MAGIC_NUMBER = WorstPractices.animals(false);
-	MAGIC_NUMBER *= 5;
-	if (MAGIC_NUMBER > 18) {
-	while(MAGIC_NUMBER > 0)  {
-	MAGIC_NUMBER--;
+		int x = 5;
+		int y = 18;
+		int z = 0;
+		int MAGIC_NUMBER = WorstPractices.animals(false);
+		MAGIC_NUMBER *= x;
+		if (MAGIC_NUMBER > y) {
+			while(MAGIC_NUMBER > z)  {
+				MAGIC_NUMBER--;
 
 			}
 		}
@@ -29,15 +32,17 @@ public class WorstPractices extends Object {
  yeswellheresthething: a seed which helps generate the magic number
  returns: a magical number*/
 
-private static int animals(boolean yeswellheresthething)
-{
+	private static int animals(boolean seed)
+	{
 		//Start off with one of these
-	
-	int aInt = yeswellheresthething ? 34 : 21;
-	float sparklesfairy = .5f;
-	for (int brown = 0; brown < aInt; brown++) { sparklesfairy *= aInt;
-	} return (int) sparklesfairy * aInt;
-}
+		
+		int aInt = seed ? 34 : 21;
+		float sparklesfairy = .5f;
+		for (int fairy = 0; fairy < aInt; fairy++) { 
+				sparklesfairy *= aInt;
+		}
+		 return (int) sparklesfairy * aInt;
+	}
 
 	/************************************************
 	 *	ASSIGNMENT

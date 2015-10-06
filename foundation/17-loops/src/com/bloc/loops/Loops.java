@@ -11,21 +11,23 @@ public class Loops extends Object {
 		boolean temp = false;
 
 		//********** Starts Here ************************/
-		temp = someBools[7];
-		someBools[7] = someBools[0];
-		someBools[0] = temp;
+		// temp = someBools[7];
+		// someBools[7] = someBools[0];
+		// someBools[0] = temp;
 
-		temp = someBools[6];
-		someBools[6] = someBools[1];
-		someBools[1] = temp;
+		// temp = someBools[6];
+		// someBools[6] = someBools[1];
+		// someBools[1] = temp;
 
-		temp = someBools[5];
-		someBools[5] = someBools[2];
-		someBools[2] = temp;
+		// temp = someBools[5];
+		// someBools[5] = someBools[2];
+		// someBools[2] = temp;
 
-		temp = someBools[4];
-		someBools[4] = someBools[3];
-		someBools[3] = temp;
+		// temp = someBools[4];
+		// someBools[4] = someBools[3];
+		// someBools[3] = temp;
+
+		
 		//********** Ends Here **************************/
 		
 
